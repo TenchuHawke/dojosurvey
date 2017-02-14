@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title></title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<body>
+    <div class="bob">
+        The current time and date:
+    </div>
+    <div class="bob">
+        <table>
+            <form action="bob" method="post">
+
+                <tr>
+                    <td>Your Name</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Dojo Location</td>
+                    <td>
+                        <select name="location">
+                            <option value="San Jose">San Jose</option>
+                            <option value="San Fransisco">San Fransisco</option>
+                            <option value="Seattle">Seattle</option>
+                            <option value="New York">New York</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Favorite Language</td>
+                    <td>
+                        <select name="language">
+                            <option value="Python">Python</option>
+                            <option value="C#">C#</option>
+                            <option value="Ruby">Ruby</option>
+                            <option value="Ios">Ios</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Comment:
+                        <input type="textare" name="comment">
+                    </td>
+                </tr>
+                <input type="Submit" name="Submit">
+            </form>
+        </table>
+    </div>
+</body>
+
+</html>
