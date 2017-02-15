@@ -1,6 +1,6 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
-namespace YourNamespace
+namespace DojoSurvey
 {
     public class Program
     {
